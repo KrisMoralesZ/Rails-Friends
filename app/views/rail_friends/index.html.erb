@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Rail friends</h1>
+
+<div id="rail_friends">
+  <% @rail_friends.each do |rail_friend| %>
+    <%= render rail_friend %>
+    <p>
+      <%= link_to "Show this rail friend", rail_friend %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New rail friend", new_rail_friend_path %>

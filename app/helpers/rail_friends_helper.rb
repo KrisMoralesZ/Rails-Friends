@@ -1,0 +1,2 @@
+module RailFriendsHelper
+end

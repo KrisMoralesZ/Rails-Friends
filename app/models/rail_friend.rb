@@ -1,0 +1,2 @@
+class RailFriend < ApplicationRecord
+end
